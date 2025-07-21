@@ -1,0 +1,210 @@
+/* Import Tailwind CSS */
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+/* Import Google Fonts: Arial for general use and Vazirmatn for Persian */
+@import url('https://fonts.googleapis.com/css2?family=Arial&family=Vazirmatn&display=swap');
+
+
+/* General body styling for the Google Docs feel */
+body {
+    background-color: #f1f3f4; /* Google Docs background color */
+    font-family: 'Arial', sans-serif;
+    color: #202124;
+}
+
+/* --- Header & Interactive Elements --- */
+
+/* Style for header buttons */
+header button {
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+header button:hover {
+    background-color: #f8f9fa;
+    border-color: #dadce0;
+}
+header button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(77, 144, 254, 0.4); /* Google-like focus ring */
+}
+
+/* Add transition to dropdowns for smooth appearance */
+#lang-dropdown, #resume-type-dropdown {
+    transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+    transform-origin: top;
+}
+/* Start hidden and slightly scaled down */
+.hidden {
+    opacity: 0;
+    transform: scale(0.98);
+    pointer-events: none; /* Prevent interaction when hidden */
+}
+
+/* Styles for the main resume container to look like a document page */
+#resume-container {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s ease-in-out;
+}
+#resume-container:hover {
+     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Language Direction Specific Styles --- */
+
+/* Default Left-to-Right (LTR) styles */
+body[dir="ltr"] #resume-container {
+    text-align: left;
+}
+
+/* Right-to-Left (RTL) styles for Persian */
+body[dir="rtl"] {
+    direction: rtl;
+    font-family: 'Vazirmatn', 'Arial', sans-serif; /* Use Vazirmatn for Persian */
+}
+
+/* FIX: Keep button layout consistent regardless of language direction */
+body[dir="rtl"] header .flex {
+    direction: ltr; /* Force LTR on the flex container */
+}
+body[dir="rtl"] header .flex > div {
+    direction: rtl; /* Reset direction for the content within */
+}
+
+body[dir="rtl"] #resume-container {
+    text-align: right;
+}
+
+/* Ensure dropdowns align correctly in RTL */
+body[dir="rtl"] #lang-dropdown {
+    left: auto;
+    right: 0;
+}
+body[dir="rtl"] #resume-type-dropdown {
+    right: auto;
+    left: 0;
+}
+
+
+/* --- Resume Content Typography --- */
+
+.resume-section h2 {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 500;
+    color: #202124;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.resume-section h3 {
+    font-size: 1.125rem; /* 18px */
+    font-weight: 700;
+    color: #3c4043;
+    margin-top: 1rem;
+}
+
+.resume-section h4 {
+    font-size: 1rem; /* 16px */
+    font-weight: 500;
+    font-style: italic;
+    color: #5f6368;
+    margin-bottom: 0.25rem;
+}
+
+.resume-section p {
+    font-size: 1rem; /* 16px */
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.resume-section ul {
+    list-style-position: outside;
+    padding-left: 1.5rem; /* For LTR */
+    margin-bottom: 1rem;
+}
+
+body[dir="rtl"] .resume-section ul {
+    padding-left: 0;
+    padding-right: 1.5rem; /* For RTL */
+}
+
+.resume-section li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-info h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #5f6368;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+/* Styling for links in contact info and resume body */
+.contact-info a, .resume-section a {
+    color: #1a73e8; /* Google's link color */
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+}
+.contact-info a:hover, .resume-section a:hover {
+    text-decoration: underline;
+    color: #1155cc;
+}
+
+.contact-info p > span::after,
+.contact-info p > a::after {
+    content: "|";
+    margin-left: 0.5rem;
+    margin-right: 0.25rem;
+    color: #5f6368;
+}
+
+.contact-info p > span:last-child::after,
+.contact-info p > a:last-child::after {
+    content: ""; /* Remove separator from the last item */
+}
+
+
+/* --- Responsive Design --- */
+
+/* On smaller screens, reduce padding and font sizes */
+@media (max-width: 640px) {
+    body {
+        padding-top: 5rem; /* Adjust for fixed header */
+    }
+
+    header .flex {
+        padding: 0 0.5rem;
+    }
+
+    #resume-container {
+        padding: 1.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .contact-info h1 {
+        font-size: 2rem;
+    }
+
+    .resume-section h2 {
+        font-size: 1.25rem;
+    }
+
+    .resume-section h3 {
+        font-size: 1rem;
+    }
+}
