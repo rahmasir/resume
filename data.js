@@ -5,30 +5,30 @@ const resumeData = {
     en: {
         ui: {
             langButton: 'Language',
-            docButton: 'Document',
+            docButton: 'Resume Type',
         },
         about: {
             title: 'About This Page',
-            content: 'This page was created to showcase my professional and academic background in multiple languages. It is designed to be clean, responsive, and easy to navigate. The project is built with HTML, CSS, and vanilla JavaScript, emphasizing a modular and maintainable code structure. You can view the source code on [GitHub](https://github.com/johndoe/resume-page).'
+            content: 'This page is dedicated to the Git training at the Hammasir bootcamp. Read about the bootcamp [here +](https://neshan.org/life/hammasir_bootcamp/) and about its organizer, neshan maps [here +](https://neshan.org/).<br>You can also view the code and information related to the project in [its repository +](https://github.com/rahmasir/resume).'
         },
         work: {
-            name: 'John Doe',
+            name: 'Rahmat Ansari',
             contact: [
-                '<span>(123) 456-7890</span>',
-                { text: 'john.doe@email.com', href: 'mailto:john.doe@email.com' },
-                { text: 'LinkedIn', href: 'https://linkedin.com/in/johndoe' },
-                { text: 'GitHub', href: 'https://github.com/johndoe' }
+                '<span>+98 903 085 9525</span>',
+                { text: 'rahmat.ansari.dev', href: 'mailto:rahmat.ansari.dev' },
+                { text: 'LinkedIn', href: 'https://linkedin.com/in/en-r-ansari' },
+                { text: 'GitHub', href: 'https://github.com/enansari' }
             ],
             sections: [{
                 title: 'Work Experience',
                 items: [{
-                    title: 'Senior Software Engineer',
-                    subtitle: 'Tech Solutions Inc. | San Francisco, CA | 2020 - Present',
-                    description: 'Led a team of 5 developers in the creation of a new [cloud-based analytics platform](https://example.com).',
+                    title: 'Backend Developer',
+                    subtitle: 'Neshan Maps - on site - internship - Jul 2025 - Present',
+                    description: 'I am happy that I was among the 6 selected out of more than 600 applicants for this position and was able to participate in the bootcamp. This intensive bootcamp covers the concepts of software engineering and back-end development.',
                     points: [
-                        'Architected and implemented a microservices-based backend using Node.js and Docker.',
-                        'Improved application performance by 30% through query optimization and caching strategies.',
-                        'Mentored junior engineers and conducted code reviews to maintain code quality.'
+                        'stack: Java - Spring boot',
+                        'This program attempts to teach most of the skills of a software engineer.',
+                        'Under the supervision of the company\'s senior mentor'
                     ]
                 }, {
                     title: 'Software Engineer',
@@ -91,19 +91,19 @@ const resumeData = {
     fa: {
         ui: {
             langButton: 'زبان',
-            docButton: 'سند',
+            docButton: 'نوع رزومه',
         },
         about: {
             title: 'درباره این صفحه',
-            content: 'این صفحه برای نمایش پیشینه حرفه‌ای و آکادمیک من به چندین زبان ایجاد شده است. طراحی آن ساده، واکنش‌گرا و با ناوبری آسان است. کد منبع این پروژه در [گیت‌هاب](https://github.com/johndoe/resume-page) موجود است.'
+            content: 'این صفحه مختص تمرین گیت در بوت کمپ Hammasir ایجاد شده است. در مورد این بوت کمپ اینجا + و در مورد ارگانایزر آن، یعنی neshan maps اینجا + بخوانید. همچنین شما میتوانید کدها و اطلاعات مربوطه به پروژه را در ریپازیتوری آن + مشاهده کنید.'
         },
         work: {
-            name: 'جان دو',
+            name: 'رحمت انصاری',
             contact: [
-                '<span>(۱۲۳) ۴۵۶-۷۸۹۰</span>',
-                { text: 'john.doe@email.com', href: 'mailto:john.doe@email.com' },
-                { text: 'لینکدین', href: 'https://linkedin.com/in/johndoe' },
-                { text: 'گیت‌هاب', href: 'https://github.com/johndoe' }
+                '<span>+۹۸ ۹۰۳ ۰۸۵ ۹۵۲۵</span>',
+                { text: 'rahmat.ansari.dev', href: 'mailto:rahmat.ansari.dev' },
+                { text: 'لینکدین', href: 'https://linkedin.com/in/en-r-ansari' },
+                { text: 'گیت‌هاب', href: 'https://github.com/enansari' }
             ],
             sections: [{
                 title: 'سوابق کاری',
@@ -188,15 +188,15 @@ const resumeData = {
         },
         about: {
             title: 'Über diese Seite',
-            content: 'Diese Seite wurde erstellt, um meinen beruflichen und akademischen Werdegang in mehreren Sprachen zu präsentieren. Sie ist übersichtlich, responsiv und einfach zu navigieren. Der Quellcode ist auf [GitHub](https://github.com/johndoe/resume-page) verfügbar.'
+            content: 'Diese Seite wurde erstellt, um meinen beruflichen und akademischen Werdegang in mehreren Sprachen zu präsentieren. Sie ist übersichtlich, responsiv und einfach zu navigieren. Der Quellcode ist auf [GitHub](https://github.com/enansari/resume-page) verfügbar.'
         },
         work: {
             name: 'John Doe',
             contact: [
                 '<span>(123) 456-7890</span>',
-                { text: 'john.doe@email.com', href: 'mailto:john.doe@email.com' },
-                { text: 'LinkedIn', href: 'https://linkedin.com/in/johndoe' },
-                { text: 'GitHub', href: 'https://github.com/johndoe' }
+                { text: 'rahmat.ansari.dev', href: 'mailto:rahmat.ansari.dev' },
+                { text: 'LinkedIn', href: 'https://linkedin.com/in/en-r-ansari' },
+                { text: 'GitHub', href: 'https://github.com/enansari' }
             ],
             sections: [{
                 title: 'Berufserfahrung',
