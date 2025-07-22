@@ -54,7 +54,7 @@ const resumeData = {
                     subtitle: 'Java, NodeJs, Express, Python, Cpp, html, css',
                 }, {
                     title: 'Technologies',
-                    subtitle: 'Docker, Git, Github, Reddis, MongoDB, Postgress',
+                    subtitle: 'Docker, Git, Github, Reddis, MongoDB, Postgress, fast api, flask, django, swagger ui',
                 }]
             }, {
                 title: 'Honors',
