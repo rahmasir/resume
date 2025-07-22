@@ -37,3 +37,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### Changed
 - work resume in english refilled by true information
 
+
+## [[1.0.1](https://github.com/rahmasir/resume/releases/tag/v1.0.1)] - 2025-07-22 
+
+### Fixed
+- work skills in english page fixed by adding more technology
