@@ -56,6 +56,13 @@ const resumeData = {
                     title: 'Technologies',
                     subtitle: 'Docker, Git, Github, Reddis, MongoDB, Postgress',
                 }]
+            }, {
+                title: 'Honors',
+                items: [{
+                    title: '1st place Star programming Competition',
+                    subtitle: 'Issued by Hakim Sabzevari University, Payam Noor University · May 2025',
+                    description: 'As a member of the excellent Daddy team, I am thrilled to have secured 1st place in the first round of the Star (Sabzevar Tournament Algorithm Race), winning by a significant margin. In this competition, as in others, teamwork and creativity were paramount. I am proud of our collective success in this exciting challenge.'
+                }]
             }]
         },
         academic: {
