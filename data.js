@@ -23,7 +23,7 @@ const resumeData = {
                 title: 'Work Experience',
                 items: [{
                     title: 'Backend Developer',
-                    subtitle: 'Neshan Maps - on site - internship - Jul 2025 - Present',
+                    subtitle: 'Neshan Maps | on site | internship | Mashhad | Jul 2025 - Present',
                     description: 'I am happy that I was among the 6 selected out of more than 600 applicants for this position and was able to participate in the bootcamp. This intensive bootcamp covers the concepts of software engineering and back-end development.',
                     points: [
                         'stack: Java - Spring boot',
@@ -31,12 +31,20 @@ const resumeData = {
                         'Under the supervision of the company\'s senior mentor'
                     ]
                 }, {
-                    title: 'Software Engineer',
-                    subtitle: 'Innovatech Corp. | Palo Alto, CA | 2018 - 2020',
-                    description: 'Developed and maintained features for a large-scale e-commerce website.',
+                    title: 'Image Processing Engineer',
+                    subtitle: 'Bonyad Melli Nokhbegan | remote | Jul 2024 - Nov 2024',
+                    description: 'In this program, which I hope will eventually lead to a patent, we are building a robot to harvest saffron. I am a member of the machine vision team of this project. The supervisor of the project, Dr. Mohsen Taghizadeh, is a faculty member of the Faculty of Engineering, Department of Mechanical Engineering, Hakim Sabzevari University.',
                     points: [
-                        'Built responsive UI components with React and Redux.',
-                        'Wrote unit and integration tests, increasing code coverage to over 90%.',
+                        'stack: image processing by open-cv',
+                        'using pytorch and pandas',
+                    ]
+                }, {
+                    title: 'Backend Developer',
+                    subtitle: 'Part software group | onsite | Mashhad, Iran | Jul 2024 - Aug 2024',
+                    description: 'In this intensive bootcamp, I learned the basics of back-end programming with node.js from the professional engineers of Part software company.',
+                    points: [
+                        'stack: node js, express',
+                        'using custom framework - part framework for developing our programs',
                     ]
                 }]
             }, {
