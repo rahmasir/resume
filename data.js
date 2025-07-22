@@ -43,10 +43,10 @@ const resumeData = {
                 title: 'Skills',
                 items: [{
                     title: 'Programming Languages',
-                    subtitle: 'JavaScript, Python, Java, SQL',
+                    subtitle: 'Java, NodeJs, Express, Python, Cpp, html, css',
                 }, {
                     title: 'Technologies',
-                    subtitle: 'React, Node.js, Docker, AWS, PostgreSQL',
+                    subtitle: 'Docker, Git, Github, Reddis, MongoDB, Postgress',
                 }]
             }]
         },
