@@ -48,6 +48,17 @@ const resumeData = {
                     title: 'Technologies',
                     subtitle: 'Docker, Git, Github, Reddis, MongoDB, Postgress',
                 }]
+            }, {
+                title: 'Honors',
+                items: [{
+                    title: '1st place Star programming Competition',
+                    subtitle: 'Issued by Hakim Sabzevari University, Payam Noor University · May 2025',
+                    description: 'As a member of the excellent Daddy team, I am thrilled to have secured 1st place in the first round of the Star (Sabzevar Tournament Algorithm Race), winning by a significant margin. In this competition, as in others, teamwork and creativity were paramount. I am proud of our collective success in this exciting challenge.'
+                }, {
+                    title: '3rd place Student Relay Programming Contest | East Region',
+                    subtitle: 'Issued by Dotin Company, Khatam university · May 2025',
+                    description: 'I am glad that we managed to win 3rd place in the first round of the relay Programming Competition (inspired by the relay race) and earned a ticket to the main competition in Tehran. This competition was a creative algorithm challenge in which the skills and efforts of all team members were extremely important. The problem space of this competition focused on graphs and included four tasks and three keys, and we successfully completed all tasks and keys. Participating in this wonderful competition as a member of the strong team, Only Fans (Faghat Tarafdaran), was a great honor for me. I would like to thank the Dotin team (organizers) for their efforts.'
+                }]
             }]
         },
         academic: {

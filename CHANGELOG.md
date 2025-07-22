@@ -20,9 +20,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
-## [[0.1.0](https://github.com/rahmasir/resume/releases/tag/v1.0.0)] - 2025-07-21 
+## [[0.1.0](https://github.com/rahmasir/resume/releases/tag/v0.1.0)] - 2025-07-21 
 
 ### Added
 - a simple structure include pages by supporting multi languages
 - simple and basic readme file
 - add MIT LICENSE
+
+## [[1.0.0](https://github.com/rahmasir/resume/releases/tag/v1.0.0)] - 2025-07-22 
+
+### Added
+- work expreicne in english page
+- work skills in english page
+- work honors in english page
+
+### Changed
+- work resume in english refilled by true information
+
